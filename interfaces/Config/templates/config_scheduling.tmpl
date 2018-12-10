@@ -32,6 +32,7 @@ else:
                             <option value="$i"> $str($i).zfill(2) </option>
                         <!--#end for#-->
                     </select>
+                    <span>$T('sch-current').capitalize(): $time.strftime('%A, %H:%M', t)</span>
                 </div>
                 <div class="field-pair">
                     <label class="config">$T('sch-frequency')</label>
